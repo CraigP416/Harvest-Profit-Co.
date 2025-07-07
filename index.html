@@ -134,6 +134,9 @@
             outline: none;
             border-color: #f39c12;
         }
+        <!-- Add these classes to your input fields -->
+<input type="text" name="FNAME" placeholder="First Name" required>
+<input type="email" name="EMAIL" placeholder="Email Address" required>
         
         .cta-button {
             background: linear-gradient(45deg, #f39c12, #e67e22);
@@ -309,7 +312,12 @@
             <p>Download your free guide now and discover why thousands of people are turning to microgreens for extra income.</p>
             
             http://eepurl.com/jiE94o
+            <!-- Add class="form" to the <form> tag -->
+<form class="form" action="YOUR_MAILCHIMP_ACTION" method="post">
         </div>
+        <!-- Add this class to your submit button -->
+<button type="submit" class="cta-button">Send Me The Free Guide!</button>
+</form>
     </div>
 </body>
 </html>
